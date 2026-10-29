@@ -1,0 +1,16 @@
+# Future host profile: same artifacts, smaller cache, GNN optional at inference.
+seed: 42
+network_name: Net3
+network_inp: data/networks/Net3.inp
+duration_hours: 24
+hydraulic_timestep_min: 15
+n_pressure_sensors: 16
+n_flow_sensors: 8
+window_size: 12
+models:
+  enable_gnn: false
+  lstm_hidden: 32
+paths:
+  processed_dir: data/processed
+  model_dir: artifacts/models
+  metrics_dir: artifacts/metrics
