@@ -13,4 +13,5 @@ pytest>=8.0
 tqdm>=4.66
 matplotlib>=3.8
 plotly
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
